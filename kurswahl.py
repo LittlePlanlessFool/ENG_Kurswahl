@@ -6,6 +6,7 @@ def query():
        Eff.: Alle Kurse, die die angegebenen Fächergruppen an den entsprechenden Stellen enthalten, sind ausgegeben.
        Erg.: -"""
 
+
     os.system('cls||clear')
 
     def printem(node):
@@ -52,6 +53,7 @@ def query():
                 node.getElementsByTagName('prüfungsfach3')[0].childNodes[0].nodeValue == pf3 and 
                 node.getElementsByTagName('prüfungsfach4')[0].childNodes[0].nodeValue == pf4):
             printem(node)
+            input()                                                                                         #wait for enter to prevent closing on windows
 
 if __name__ == "__main__":
     query()
