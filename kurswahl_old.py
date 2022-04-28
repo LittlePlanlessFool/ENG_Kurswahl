@@ -10,7 +10,7 @@ af3_bool = False
 alles = ["Deutsch", "Englisch", "Französisch", "Latein", "Spanisch", "Musik", "Bildende Kunst", "Darstellendes Spiel", "Politikwissenschaften", "Geschichte", "Geographie", "Philosophie", "Mathematik", "Physik", "Chemie", "Biologie", "Informatik", "Sport"]
 
 def in_feld(fach:str):
-    """Überprüft, ob <fach> Element der Listen <af1>, <af2>. <af3> ist und setzt ggf. den zugehörigen Bool auf True."""
+    """Überprüft, ob <fach> Element der Listen <af1>, <af2>, <af3> ist und setzt ggf. den zugehörigen Bool auf True."""
     if fach in af1:
         global af1_bool
         af1_bool = True
