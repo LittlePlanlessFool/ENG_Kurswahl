@@ -51,9 +51,9 @@ class Kurswaehler:
         nextcourse.clear()
         os.system('cls||clear')
         for node in elements:
-            if (node.getElementsByTagName('leistungskurs1')[0].childNodes[0].nodeValue == lk1 and 
-                    node.getElementsByTagName('leistungskurs2')[0].childNodes[0].nodeValue == lk2 and 
-                    node.getElementsByTagName('prüfungsfach3')[0].childNodes[0].nodeValue == pf3 and 
+            if (node.getElementsByTagName('leistungskurs1')[0].childNodes[0].nodeValue == lk1 and
+                    node.getElementsByTagName('leistungskurs2')[0].childNodes[0].nodeValue == lk2 and
+                    node.getElementsByTagName('prüfungsfach3')[0].childNodes[0].nodeValue == pf3 and
                     node.getElementsByTagName('prüfungsfach4')[0].childNodes[0].nodeValue == pf4):
                 self._printem(node)
         input()                                                                                                 #wait for enter to prevent closing on windows
