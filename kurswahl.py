@@ -1,3 +1,7 @@
+import os
+from xml.dom import minidom
+
+
 class Kurswaehler:
 
     def _printem(self, node):
@@ -12,14 +16,12 @@ class Kurswaehler:
             """)
 
     def query(self):
-        import os
-        from xml.dom import minidom
-
         nextcourse = {"Englisch", "Mathematik", "NW", "Deutsch"}
         os.system('cls||clear')
 
         # load document into RAM
-        document = minidom.parse(os.path.join(os.path.dirname(os.path.abspath(__file__)), 'kurse.xml'))
+        document = minidom\
+            .parse(os.path.join(os.path.dirname(os.path.abspath(__file__)), 'kurse.xml'))
         elements = document.getElementsByTagName('kurs')
 
         # wait for user to input
