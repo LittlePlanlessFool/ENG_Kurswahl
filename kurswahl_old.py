@@ -1,41 +1,45 @@
-import os, sys
+import os
 from time import sleep
 
-af1 = ["Deutsch", "Englisch", "Französisch", "Latein", "Spanisch", "Musik", "Bildende Kunst", "Darstellendes Spiel"]    #definition block
-af1_bool = False
+af1 = ["Deutsch", "Englisch", "Französisch", "Latein", "Spanisch", "Musik", "Bildende Kunst", 
+       "Darstellendes Spiel"]    #definition block
+AF1_BOOL = False
 af2 = ["Politikwissenschaften", "Geschichte", "Geographie", "Philosophie"]
-af2_bool = False
+AF2_BOOL = False
 af3 = ["Mathematik", "Physik", "Chemie", "Biologie", "Informatik"]
-af3_bool = False
-alles = ["Deutsch", "Englisch", "Französisch", "Latein", "Spanisch", "Musik", "Bildende Kunst", "Darstellendes Spiel", "Politikwissenschaften", "Geschichte", "Geographie", "Philosophie", "Mathematik", "Physik", "Chemie", "Biologie", "Informatik", "Sport"]
+AF3_BOOL = False
+alles = ["Deutsch", "Englisch", "Französisch", "Latein", "Spanisch", "Musik", "Bildende Kunst", 
+         "Darstellendes Spiel", "Politikwissenschaften", "Geschichte", "Geographie", 
+         "Philosophie", "Mathematik", "Physik", "Chemie", "Biologie", "Informatik", "Sport"]
 
-def in_feld(fach:str):
+def in_feld(fach: str):
     """Überprüft, ob <fach> Element der Listen <af1>, <af2>, <af3> ist und setzt ggf. den zugehörigen Bool auf True."""
     if fach in af1:
-        global af1_bool
-        af1_bool = True
+        global AF1_BOOL
+        AF1_BOOL = True
     if fach in af2:
-        global af2_bool
-        af2_bool = True
+        global AF2_BOOL
+        AF2_BOOL = True
     if fach in af3:
-        global af3_bool
-        af3_bool = True
+        global AF3_BOOL
+        AF3_BOOL = True
 
 def feld_fehlt():
     """Überprüft,ob die Booleans der AFs True sind, und gibt ggf. den Hinweis darauf aus."""
-    if not af1_bool:
+    if not AF1_BOOL:
         print("\nEs fehlt noch ein Fach für Aufgabenfeld 1.")
-    if not af2_bool:
+    if not AF2_BOOL:
         print("\nEs fehlt noch ein Fach für Aufgabenfeld 2.")
-    if not af3_bool:
+    if not AF3_BOOL:
         print("\nEs fehlt noch ein Fach für Aufgabenfeld 3.")
 
-def kursprüfer():
+def kurspruefer():
     """Überprüft, ob Fachkombinationen möglich sind, oder gibt Hinweise was fehlt"""
-    lks = ["Englisch", "Französisch", "Spanisch", "Mathematik", "Physik", "Chemie", "Biologie", "Deutsch"]
+    lks = ["Englisch", "Französisch", "Spanisch", "Mathematik", "Physik", "Chemie", "Biologie", 
+           "Deutsch"]
     pfs = ["Englisch", "Französisch", "Spanisch", "Mathematik", "Deutsch"]
     pfs_c = 0
-    vorraussetzungen_erfüllt = False
+    vorraussetzungen_erfuellt = False
 
     os.system('cls||clear')
     print("""
@@ -48,11 +52,11 @@ def kursprüfer():
     Je nach Prüfungsfach können weitere Pflichtfächer anfallen; diese entnehmen Sie bitte der Präsentation.
     """)
 
-    while not vorraussetzungen_erfüllt:
+    while not vorraussetzungen_erfuellt:
 
         while True:    #get 1. Leistungskurs
-            lk1 = input(f"\nWählen Sie ein Fach als ersten Leistungskurs: {lks}\n")    
-        
+            lk1 = input(f"\nWählen Sie ein Fach als ersten Leistungskurs: {lks}\n")
+
             try:
                 lks.remove(lk1)
                 alles.remove(lk1)
@@ -108,16 +112,16 @@ def kursprüfer():
             except ValueError:
                 print(f"{pk5} ist keine Option!")
                 continue
-        
+
         in_feld(pk5)
 
-        
-        for e in [lk1, lk2, pf3, pf4, pk5]:    #logic block Prüfungsfächer erfüllt
-            if e in pfs:
+        for element in [lk1, lk2, pf3, pf4, pk5]:    #logic block Prüfungsfächer erfüllt
+            if element in pfs:
                 pfs_c += 1
-        
-        if [af1_bool, af2_bool, af3_bool] == [True, True, True] and pfs_c >= 2 and pk5 not in [lk1, lk2, pf3, pf4]:   #logic block Vorraussetzungen
-            vorraussetzungen_erfüllt = True
+
+        if ([AF1_BOOL, AF2_BOOL, AF3_BOOL] == [True, True, True]
+                and pfs_c >= 2 and pk5 not in [lk1, lk2, pf3, pf4]):   #logic block Vorraussetzungen
+            vorraussetzungen_erfuellt = True
             print(f"\nSie haben {lk1, lk2, pf3, pf4, pk5} gewählt. Bitte beachten Sie die weiteren Pflichtkurse für Ihre Fächerwahl.")
         else:
             print("Ihre Kurskombination entsprach nicht den Vorgaben!\nBeende!")
@@ -128,4 +132,4 @@ def kursprüfer():
 
 
 if __name__ == "__main__":
-    kursprüfer()
+    kurspruefer()

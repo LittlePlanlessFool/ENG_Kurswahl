@@ -1,4 +1,4 @@
-class Kurswähler:
+class Kurswaehler:
 
     def _printem(self, node):
         print(f"""
@@ -12,8 +12,8 @@ class Kurswähler:
             """)
 
     def query(self):
-        from xml.dom import minidom
         import os
+        from xml.dom import minidom
 
         nextcourse = {"Englisch", "Mathematik", "NW", "Deutsch"}
         os.system('cls||clear')
@@ -28,7 +28,7 @@ class Kurswähler:
         for node in elements:                                                                                   #search all elements
             if node.getElementsByTagName('leistungskurs1')[0].childNodes[0].nodeValue == lk1:                   #check if first child node of element equals user input
                 nextcourse.add(node.getElementsByTagName('leistungskurs2')[0].childNodes[0].nodeValue)          #add all elements to set where above condition is met
-                
+
 
         lk2 = input(f"Wählen Sie den zweiten Leistungskurs aus einem der folgenden Kurse: {nextcourse}\n")
         nextcourse.clear()
@@ -59,5 +59,5 @@ class Kurswähler:
         input()                                                                                                 #wait for enter to prevent closing on windows
 
 if __name__ == "__main__":
-    k = Kurswähler()
+    k = Kurswaehler()
     k.query()
