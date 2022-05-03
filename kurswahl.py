@@ -3,7 +3,9 @@ from xml.dom import minidom
 
 
 class Kurswaehler:
-    """AFII entspricht
+    """AFII entspricht Politikwissenschaften, Geografie, Geschichte
+    NW entspricht Physik, Chemie, Biologie
+    Fremdsprachen entspricht Englisch, Französisch, Latein, Spanisch
     """
 
     def __init__(self):
