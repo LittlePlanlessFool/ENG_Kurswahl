@@ -1,4 +1,5 @@
-"very bad, but iiwdfi"
+"""very bad, but iiwdfi
+TODO: fix repitition of if statements"""
 import os
 from xml.dom import minidom
 
