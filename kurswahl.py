@@ -1,14 +1,17 @@
 """very bad, but iiwdfi
-TODO: fix repitition of if statements"""
+"""
 import os
+import sys
 from xml.dom import minidom
 
 
 class Kurswaehler:
-    """AFII entspricht Politikwissenschaften, Geografie, Geschichte
+    """TODO: fix repitition of if statements"""
+    print(
+    """AFII entspricht Geografie, Geschichte, Politikwissenschaften
     NW entspricht Physik, Chemie, Biologie
     Fremdsprachen entspricht Englisch, Französisch, Latein, Spanisch
-    """
+    """)
 
     def __init__(self):
         self.nextcourse = {"Englisch", "Mathematik", "NW", "Deutsch"}
@@ -37,7 +40,12 @@ class Kurswaehler:
 
     def _clear(self):
         os.system('cls||clear')
-        self.nextcourse.clear()
+        if self.nextcourse:
+            self.nextcourse.clear()
+        else:
+            print("Sie hatten einen Schreibfehler. Starten Sie das Programm neu.")
+            input()
+            sys.exit()
 
     def _printem(self, node):
         print(f"""
@@ -62,21 +70,21 @@ class Kurswaehler:
                     )
         self.elements = document.getElementsByTagName('kurs')
 
-        self.lk1 = input(f"Wählen Sie den ersten Leistungskurs: {self.nextcourse}\n")
+        self.lk1 = input(f"Wählen Sie den ersten Leistungskurs: {self.nextcourse}\n").upper()
         self._clear()
         for node in self.elements:
             if self.read_lk1(node) == self.lk1:
                 self.nextcourse.add(self.read_lk2(node))
 
 
-        self.lk2 = input(f"Wählen Sie den zweiten Leistungskurs aus einem der folgenden Kurse: {self.nextcourse}\n")
+        self.lk2 = input(f"Wählen Sie den zweiten Leistungskurs aus einem der folgenden Kurse: {self.nextcourse}\n").upper()
         self._clear()
         for node in self.elements:
             if (self.read_lk1(node) == self.lk1 and
                     self.read_lk2(node) == self.lk2):
                 self.nextcourse.add(self.read_pf3(node))
 
-        self.pf3 = input(f"Wählen Sie das dritte Prüfungsfach aus einem der folgenden Kurse: {self.nextcourse}\n")
+        self.pf3 = input(f"Wählen Sie das dritte Prüfungsfach aus einem der folgenden Kurse: {self.nextcourse}\n").upper()
         self._clear()
         for node in self.elements:
             if (self.read_lk1(node) == self.lk1 and
@@ -84,7 +92,7 @@ class Kurswaehler:
                     self.read_pf3(node) == self.pf3):
                 self.nextcourse.add(self.read_pf4(node))
 
-        self.pf4 = input(f"Wählen Sie das vierte Prüfungsfach aus einem der folgenden Kurse: {self.nextcourse}\n")
+        self.pf4 = input(f"Wählen Sie das vierte Prüfungsfach aus einem der folgenden Kurse: {self.nextcourse}\n").upper()
         self._clear()
         for node in self.elements:
             if (self.read_lk1(node) == self.lk1 and
