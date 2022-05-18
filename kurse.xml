@@ -2,521 +2,521 @@
 <kurse xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
  xsi:noNamespaceSchemaLocation="kurse.xsd" size="112">
     <kurs id="1a">
-        <leistungskurs1>Englisch</leistungskurs1>
+        <leistungskurs1>ENGLISCH</leistungskurs1>
         <leistungskurs2>DEUTSCH</leistungskurs2>
         <prüfungsfach3>AFII</prüfungsfach3>
-        <prüfungsfach4>Mathematik</prüfungsfach4>
-        <prüfungskomponente5>Beliebig</prüfungskomponente5>
+        <prüfungsfach4>MATHEMATIK</prüfungsfach4>
+        <prüfungskomponente5>BELIEBIG</prüfungskomponente5>
     </kurs>
     <kurs id="1b">
-        <leistungskurs1>Englisch</leistungskurs1>
+        <leistungskurs1>ENGLISCH</leistungskurs1>
         <leistungskurs2>DEUTSCH</leistungskurs2>
         <prüfungsfach3>AFII</prüfungsfach3>
-        <prüfungsfach4>Beliebig</prüfungsfach4>
-        <prüfungskomponente5>Mathematik</prüfungskomponente5>
+        <prüfungsfach4>BELIEBIG</prüfungsfach4>
+        <prüfungskomponente5>MATHEMATIK</prüfungskomponente5>
     </kurs>
     <kurs id="1c">
-        <leistungskurs1>Englisch</leistungskurs1>
+        <leistungskurs1>ENGLISCH</leistungskurs1>
         <leistungskurs2>DEUTSCH</leistungskurs2>
-        <prüfungsfach3>Beliebig</prüfungsfach3>
+        <prüfungsfach3>BELIEBIG</prüfungsfach3>
         <prüfungsfach4>AFII</prüfungsfach4>
-        <prüfungskomponente5>Mathematik</prüfungskomponente5>
+        <prüfungskomponente5>MATHEMATIK</prüfungskomponente5>
     </kurs>
     <kurs id="1d">
-        <leistungskurs1>Englisch</leistungskurs1>
+        <leistungskurs1>ENGLISCH</leistungskurs1>
         <leistungskurs2>DEUTSCH</leistungskurs2>
-        <prüfungsfach3>Beliebig</prüfungsfach3>
-        <prüfungsfach4>Mathematik</prüfungsfach4>
+        <prüfungsfach3>BELIEBIG</prüfungsfach3>
+        <prüfungsfach4>MATHEMATIK</prüfungsfach4>
         <prüfungskomponente5>AFII + PHILOSOPHIE</prüfungskomponente5>
     </kurs>
     <kurs id="1e">
-        <leistungskurs1>Englisch</leistungskurs1>
+        <leistungskurs1>ENGLISCH</leistungskurs1>
         <leistungskurs2>DEUTSCH</leistungskurs2>
-        <prüfungsfach3>Mathematik</prüfungsfach3>
-        <prüfungsfach4>Beliebig</prüfungsfach4>
+        <prüfungsfach3>MATHEMATIK</prüfungsfach3>
+        <prüfungsfach4>BELIEBIG</prüfungsfach4>
         <prüfungskomponente5>AFII + PHILOSOPHIE</prüfungskomponente5>
     </kurs>
     <kurs id="1f">
-        <leistungskurs1>Englisch</leistungskurs1>
+        <leistungskurs1>ENGLISCH</leistungskurs1>
         <leistungskurs2>DEUTSCH</leistungskurs2>
-        <prüfungsfach3>Mathematik</prüfungsfach3>
+        <prüfungsfach3>MATHEMATIK</prüfungsfach3>
         <prüfungsfach4>AFII</prüfungsfach4>
-        <prüfungskomponente5>Beliebig</prüfungskomponente5>
+        <prüfungskomponente5>BELIEBIG</prüfungskomponente5>
     </kurs>
 
     <kurs id="2a">
-        <leistungskurs1>Englisch</leistungskurs1>
+        <leistungskurs1>ENGLISCH</leistungskurs1>
         <leistungskurs2>DEUTSCH</leistungskurs2>
         <prüfungsfach3>AFII</prüfungsfach3>
         <prüfungsfach4>NW</prüfungsfach4>
-        <prüfungskomponente5>Beliebig</prüfungskomponente5>
+        <prüfungskomponente5>BELIEBIG</prüfungskomponente5>
     </kurs>
     <kurs id="2b">
-        <leistungskurs1>Englisch</leistungskurs1>
+        <leistungskurs1>ENGLISCH</leistungskurs1>
         <leistungskurs2>DEUTSCH</leistungskurs2>
         <prüfungsfach3>AFII</prüfungsfach3>
-        <prüfungsfach4>Beliebig</prüfungsfach4>
+        <prüfungsfach4>BELIEBIG</prüfungsfach4>
         <prüfungskomponente5>NW</prüfungskomponente5>
     </kurs>
     <kurs id="2c">
-        <leistungskurs1>Englisch</leistungskurs1>
+        <leistungskurs1>ENGLISCH</leistungskurs1>
         <leistungskurs2>DEUTSCH</leistungskurs2>
-        <prüfungsfach3>Beliebig</prüfungsfach3>
+        <prüfungsfach3>BELIEBIG</prüfungsfach3>
         <prüfungsfach4>AFII</prüfungsfach4>
         <prüfungskomponente5>NW</prüfungskomponente5>
     </kurs>
     <kurs id="2d">
-        <leistungskurs1>Englisch</leistungskurs1>
+        <leistungskurs1>ENGLISCH</leistungskurs1>
         <leistungskurs2>DEUTSCH</leistungskurs2>
-        <prüfungsfach3>Beliebig</prüfungsfach3>
+        <prüfungsfach3>BELIEBIG</prüfungsfach3>
         <prüfungsfach4>NW</prüfungsfach4>
         <prüfungskomponente5>AFII + PHILOSOPHIE</prüfungskomponente5>
     </kurs>
     <kurs id="2e">
-        <leistungskurs1>Englisch</leistungskurs1>
+        <leistungskurs1>ENGLISCH</leistungskurs1>
         <leistungskurs2>DEUTSCH</leistungskurs2>
         <prüfungsfach3>NW</prüfungsfach3>
-        <prüfungsfach4>Beliebig</prüfungsfach4>
+        <prüfungsfach4>BELIEBIG</prüfungsfach4>
         <prüfungskomponente5>AFII + PHILOSOPHIE</prüfungskomponente5>
     </kurs>
     <kurs id="2f">
-        <leistungskurs1>Englisch</leistungskurs1>
+        <leistungskurs1>ENGLISCH</leistungskurs1>
         <leistungskurs2>DEUTSCH</leistungskurs2>
         <prüfungsfach3>NW</prüfungsfach3>
         <prüfungsfach4>AFII</prüfungsfach4>
-        <prüfungskomponente5>Beliebig</prüfungskomponente5>
+        <prüfungskomponente5>BELIEBIG</prüfungskomponente5>
     </kurs>
 
     <kurs id="3a">
-        <leistungskurs1>Englisch</leistungskurs1>
+        <leistungskurs1>ENGLISCH</leistungskurs1>
         <leistungskurs2>DEUTSCH</leistungskurs2>
         <prüfungsfach3>AFII</prüfungsfach3>
-        <prüfungsfach4>Informatik</prüfungsfach4>
-        <prüfungskomponente5>Beliebig</prüfungskomponente5>
+        <prüfungsfach4>INFORMATIK</prüfungsfach4>
+        <prüfungskomponente5>BELIEBIG</prüfungskomponente5>
     </kurs>
     <kurs id="3b">
-        <leistungskurs1>Englisch</leistungskurs1>
+        <leistungskurs1>ENGLISCH</leistungskurs1>
         <leistungskurs2>DEUTSCH</leistungskurs2>
         <prüfungsfach3>AFII</prüfungsfach3>
-        <prüfungsfach4>Beliebig</prüfungsfach4>
-        <prüfungskomponente5>Informatik</prüfungskomponente5>
+        <prüfungsfach4>BELIEBIG</prüfungsfach4>
+        <prüfungskomponente5>INFORMATIK</prüfungskomponente5>
     </kurs>
     <kurs id="3c">
-        <leistungskurs1>Englisch</leistungskurs1>
+        <leistungskurs1>ENGLISCH</leistungskurs1>
         <leistungskurs2>DEUTSCH</leistungskurs2>
-        <prüfungsfach3>Beliebig</prüfungsfach3>
+        <prüfungsfach3>BELIEBIG</prüfungsfach3>
         <prüfungsfach4>AFII</prüfungsfach4>
-        <prüfungskomponente5>Informatik</prüfungskomponente5>
+        <prüfungskomponente5>INFORMATIK</prüfungskomponente5>
     </kurs>
     <kurs id="3d">
-        <leistungskurs1>Englisch</leistungskurs1>
+        <leistungskurs1>ENGLISCH</leistungskurs1>
         <leistungskurs2>DEUTSCH</leistungskurs2>
-        <prüfungsfach3>Beliebig</prüfungsfach3>
-        <prüfungsfach4>Informatik</prüfungsfach4>
+        <prüfungsfach3>BELIEBIG</prüfungsfach3>
+        <prüfungsfach4>INFORMATIK</prüfungsfach4>
         <prüfungskomponente5>AFII + PHILOSOPHIE</prüfungskomponente5>
     </kurs>
     <kurs id="3e">
-        <leistungskurs1>Englisch</leistungskurs1>
+        <leistungskurs1>ENGLISCH</leistungskurs1>
         <leistungskurs2>DEUTSCH</leistungskurs2>
-        <prüfungsfach3>Informatik</prüfungsfach3>
-        <prüfungsfach4>Beliebig</prüfungsfach4>
+        <prüfungsfach3>INFORMATIK</prüfungsfach3>
+        <prüfungsfach4>BELIEBIG</prüfungsfach4>
         <prüfungskomponente5>AFII + PHILOSOPHIE</prüfungskomponente5>
     </kurs>
     <kurs id="3f">
-        <leistungskurs1>Englisch</leistungskurs1>
+        <leistungskurs1>ENGLISCH</leistungskurs1>
         <leistungskurs2>DEUTSCH</leistungskurs2>
-        <prüfungsfach3>Informatik</prüfungsfach3>
+        <prüfungsfach3>INFORMATIK</prüfungsfach3>
         <prüfungsfach4>AFII</prüfungsfach4>
-        <prüfungskomponente5>Beliebig</prüfungskomponente5>
+        <prüfungskomponente5>BELIEBIG</prüfungskomponente5>
     </kurs>
 
     <kurs id="10a">
-        <leistungskurs1>Englisch</leistungskurs1>
+        <leistungskurs1>ENGLISCH</leistungskurs1>
         <leistungskurs2>AFII</leistungskurs2>
         <prüfungsfach3>DEUTSCH</prüfungsfach3>
         <prüfungsfach4>NW</prüfungsfach4>
-        <prüfungskomponente5>Beliebig</prüfungskomponente5>
+        <prüfungskomponente5>BELIEBIG</prüfungskomponente5>
     </kurs>
     <kurs id="10b">
-        <leistungskurs1>Englisch</leistungskurs1>
+        <leistungskurs1>ENGLISCH</leistungskurs1>
         <leistungskurs2>AFII</leistungskurs2>
         <prüfungsfach3>DEUTSCH</prüfungsfach3>
-        <prüfungsfach4>Beliebig</prüfungsfach4>
+        <prüfungsfach4>BELIEBIG</prüfungsfach4>
         <prüfungskomponente5>NW</prüfungskomponente5>
     </kurs>
     <kurs id="10c">
-        <leistungskurs1>Englisch</leistungskurs1>
+        <leistungskurs1>ENGLISCH</leistungskurs1>
         <leistungskurs2>AFII</leistungskurs2>
-        <prüfungsfach3>Beliebig</prüfungsfach3>
+        <prüfungsfach3>BELIEBIG</prüfungsfach3>
         <prüfungsfach4>DEUTSCH</prüfungsfach4>
         <prüfungskomponente5>NW</prüfungskomponente5>
     </kurs>
     <kurs id="10d">
-        <leistungskurs1>Englisch</leistungskurs1>
+        <leistungskurs1>ENGLISCH</leistungskurs1>
         <leistungskurs2>AFII</leistungskurs2>
-        <prüfungsfach3>Mathematik</prüfungsfach3>
+        <prüfungsfach3>MATHEMATIK</prüfungsfach3>
         <prüfungsfach4>NW</prüfungsfach4>
         <prüfungskomponente5>DEUTSCH</prüfungskomponente5>
     </kurs>
     <kurs id="10e">
-        <leistungskurs1>Englisch</leistungskurs1>
+        <leistungskurs1>ENGLISCH</leistungskurs1>
         <leistungskurs2>AFII</leistungskurs2>
         <prüfungsfach3>NW</prüfungsfach3>
-        <prüfungsfach4>Mathematik</prüfungsfach4>
+        <prüfungsfach4>MATHEMATIK</prüfungsfach4>
         <prüfungskomponente5>DEUTSCH</prüfungskomponente5>
     </kurs>
     <kurs id="10f">
-        <leistungskurs1>Englisch</leistungskurs1>
+        <leistungskurs1>ENGLISCH</leistungskurs1>
         <leistungskurs2>AFII</leistungskurs2>
         <prüfungsfach3>NW</prüfungsfach3>
         <prüfungsfach4>DEUTSCH</prüfungsfach4>
-        <prüfungskomponente5>Beliebig</prüfungskomponente5>
+        <prüfungskomponente5>BELIEBIG</prüfungskomponente5>
     </kurs>
 
     <kurs id="11a">
-        <leistungskurs1>Englisch</leistungskurs1>
+        <leistungskurs1>ENGLISCH</leistungskurs1>
         <leistungskurs2>AFII</leistungskurs2>
         <prüfungsfach3>DEUTSCH</prüfungsfach3>
-        <prüfungsfach4>Informatik</prüfungsfach4>
-        <prüfungskomponente5>Beliebig</prüfungskomponente5>
+        <prüfungsfach4>INFORMATIK</prüfungsfach4>
+        <prüfungskomponente5>BELIEBIG</prüfungskomponente5>
     </kurs>
     <kurs id="11b">
-        <leistungskurs1>Englisch</leistungskurs1>
+        <leistungskurs1>ENGLISCH</leistungskurs1>
         <leistungskurs2>AFII</leistungskurs2>
         <prüfungsfach3>DEUTSCH</prüfungsfach3>
-        <prüfungsfach4>Beliebig</prüfungsfach4>
-        <prüfungskomponente5>Informatik</prüfungskomponente5>
+        <prüfungsfach4>BELIEBIG</prüfungsfach4>
+        <prüfungskomponente5>INFORMATIK</prüfungskomponente5>
     </kurs>
     <kurs id="11c">
-        <leistungskurs1>Englisch</leistungskurs1>
+        <leistungskurs1>ENGLISCH</leistungskurs1>
         <leistungskurs2>AFII</leistungskurs2>
-        <prüfungsfach3>Beliebig</prüfungsfach3>
+        <prüfungsfach3>BELIEBIG</prüfungsfach3>
         <prüfungsfach4>DEUTSCH</prüfungsfach4>
-        <prüfungskomponente5>Informatik</prüfungskomponente5>
+        <prüfungskomponente5>INFORMATIK</prüfungskomponente5>
     </kurs>
     <kurs id="11d">
-        <leistungskurs1>Englisch</leistungskurs1>
+        <leistungskurs1>ENGLISCH</leistungskurs1>
         <leistungskurs2>AFII</leistungskurs2>
-        <prüfungsfach3>Mathematik</prüfungsfach3>
-        <prüfungsfach4>Informatik</prüfungsfach4>
+        <prüfungsfach3>MATHEMATIK</prüfungsfach3>
+        <prüfungsfach4>INFORMATIK</prüfungsfach4>
         <prüfungskomponente5>DEUTSCH</prüfungskomponente5>
     </kurs>
     <kurs id="11e">
-        <leistungskurs1>Englisch</leistungskurs1>
+        <leistungskurs1>ENGLISCH</leistungskurs1>
         <leistungskurs2>AFII</leistungskurs2>
-        <prüfungsfach3>Informatik</prüfungsfach3>
-        <prüfungsfach4>Mathematik</prüfungsfach4>
+        <prüfungsfach3>INFORMATIK</prüfungsfach3>
+        <prüfungsfach4>MATHEMATIK</prüfungsfach4>
         <prüfungskomponente5>DEUTSCH</prüfungskomponente5>
     </kurs>
     <kurs id="11f">
-        <leistungskurs1>Englisch</leistungskurs1>
+        <leistungskurs1>ENGLISCH</leistungskurs1>
         <leistungskurs2>AFII</leistungskurs2>
-        <prüfungsfach3>Informatik</prüfungsfach3>
+        <prüfungsfach3>INFORMATIK</prüfungsfach3>
         <prüfungsfach4>DEUTSCH</prüfungsfach4>
-        <prüfungskomponente5>Beliebig</prüfungskomponente5>
+        <prüfungskomponente5>BELIEBIG</prüfungskomponente5>
     </kurs>
 
     <kurs id="12a">
-        <leistungskurs1>Englisch</leistungskurs1>
+        <leistungskurs1>ENGLISCH</leistungskurs1>
         <leistungskurs2>AFII</leistungskurs2>
-        <prüfungsfach3>Mathematik</prüfungsfach3>
-        <prüfungsfach4>Beliebig</prüfungsfach4>
-        <prüfungskomponente5>Beliebig</prüfungskomponente5>
+        <prüfungsfach3>MATHEMATIK</prüfungsfach3>
+        <prüfungsfach4>BELIEBIG</prüfungsfach4>
+        <prüfungskomponente5>BELIEBIG</prüfungskomponente5>
     </kurs>
     <kurs id="12b">
-        <leistungskurs1>Englisch</leistungskurs1>
+        <leistungskurs1>ENGLISCH</leistungskurs1>
         <leistungskurs2>AFII</leistungskurs2>
-        <prüfungsfach3>Beliebig</prüfungsfach3>
-        <prüfungsfach4>Mathematik</prüfungsfach4>
-        <prüfungskomponente5>Beliebig</prüfungskomponente5>
+        <prüfungsfach3>BELIEBIG</prüfungsfach3>
+        <prüfungsfach4>MATHEMATIK</prüfungsfach4>
+        <prüfungskomponente5>BELIEBIG</prüfungskomponente5>
     </kurs>
     <kurs id="12c">
-        <leistungskurs1>Englisch</leistungskurs1>
+        <leistungskurs1>ENGLISCH</leistungskurs1>
         <leistungskurs2>AFII</leistungskurs2>
         <prüfungsfach3>DEUTSCH</prüfungsfach3>
-        <prüfungsfach4>Beliebig</prüfungsfach4>
-        <prüfungskomponente5>Mathematik</prüfungskomponente5>
+        <prüfungsfach4>BELIEBIG</prüfungsfach4>
+        <prüfungskomponente5>MATHEMATIK</prüfungskomponente5>
     </kurs>
     <kurs id="12d">
-        <leistungskurs1>Englisch</leistungskurs1>
+        <leistungskurs1>ENGLISCH</leistungskurs1>
         <leistungskurs2>AFII</leistungskurs2>
-        <prüfungsfach3>Beliebig</prüfungsfach3>
+        <prüfungsfach3>BELIEBIG</prüfungsfach3>
         <prüfungsfach4>DEUTSCH</prüfungsfach4>
-        <prüfungskomponente5>Beliebig</prüfungskomponente5>
+        <prüfungskomponente5>BELIEBIG</prüfungskomponente5>
     </kurs>
 
     <kurs id="13a">
-        <leistungskurs1>Englisch</leistungskurs1>
-        <leistungskurs2>Mathematik</leistungskurs2>
+        <leistungskurs1>ENGLISCH</leistungskurs1>
+        <leistungskurs2>MATHEMATIK</leistungskurs2>
         <prüfungsfach3>AFII</prüfungsfach3>
-        <prüfungsfach4>Beliebig</prüfungsfach4>
-        <prüfungskomponente5>Beliebig</prüfungskomponente5>
+        <prüfungsfach4>BELIEBIG</prüfungsfach4>
+        <prüfungskomponente5>BELIEBIG</prüfungskomponente5>
     </kurs>
     <kurs id="13b">
-        <leistungskurs1>Englisch</leistungskurs1>
-        <leistungskurs2>Mathematik</leistungskurs2>
-        <prüfungsfach3>Beliebig</prüfungsfach3>
+        <leistungskurs1>ENGLISCH</leistungskurs1>
+        <leistungskurs2>MATHEMATIK</leistungskurs2>
+        <prüfungsfach3>BELIEBIG</prüfungsfach3>
         <prüfungsfach4>AFII</prüfungsfach4>
-        <prüfungskomponente5>Beliebig</prüfungskomponente5>
+        <prüfungskomponente5>BELIEBIG</prüfungskomponente5>
     </kurs>
     <kurs id="13c">
-        <leistungskurs1>Englisch</leistungskurs1>
-        <leistungskurs2>Mathematik</leistungskurs2>
-        <prüfungsfach3>Beliebig</prüfungsfach3>
-        <prüfungsfach4>Beliebig</prüfungsfach4>
+        <leistungskurs1>ENGLISCH</leistungskurs1>
+        <leistungskurs2>MATHEMATIK</leistungskurs2>
+        <prüfungsfach3>BELIEBIG</prüfungsfach3>
+        <prüfungsfach4>BELIEBIG</prüfungsfach4>
         <prüfungskomponente5>AFII + PHILOSOPHIE</prüfungskomponente5>
     </kurs>
 
     <kurs id="14a">
-        <leistungskurs1>Englisch</leistungskurs1>
+        <leistungskurs1>ENGLISCH</leistungskurs1>
         <leistungskurs2>NW</leistungskurs2>
         <prüfungsfach3>DEUTSCH</prüfungsfach3>
         <prüfungsfach4>AFII</prüfungsfach4>
-        <prüfungskomponente5>Beliebig</prüfungskomponente5>
+        <prüfungskomponente5>BELIEBIG</prüfungskomponente5>
     </kurs>
     <kurs id="14b">
-        <leistungskurs1>Englisch</leistungskurs1>
+        <leistungskurs1>ENGLISCH</leistungskurs1>
         <leistungskurs2>NW</leistungskurs2>
         <prüfungsfach3>DEUTSCH</prüfungsfach3>
-        <prüfungsfach4>Beliebig</prüfungsfach4>
+        <prüfungsfach4>BELIEBIG</prüfungsfach4>
         <prüfungskomponente5>AFII</prüfungskomponente5>
     </kurs>
     <kurs id="14c">
-        <leistungskurs1>Englisch</leistungskurs1>
+        <leistungskurs1>ENGLISCH</leistungskurs1>
         <leistungskurs2>NW</leistungskurs2>
-        <prüfungsfach3>Beliebig</prüfungsfach3>
+        <prüfungsfach3>BELIEBIG</prüfungsfach3>
         <prüfungsfach4>DEUTSCH</prüfungsfach4>
         <prüfungskomponente5>AFII + PHILOSOPHIE</prüfungskomponente5>
     </kurs>
     <kurs id="14d">
-        <leistungskurs1>Englisch</leistungskurs1>
+        <leistungskurs1>ENGLISCH</leistungskurs1>
         <leistungskurs2>NW</leistungskurs2>
-        <prüfungsfach3>Mathematik</prüfungsfach3>
+        <prüfungsfach3>MATHEMATIK</prüfungsfach3>
         <prüfungsfach4>AFII</prüfungsfach4>
         <prüfungskomponente5>DEUTSCH</prüfungskomponente5>
     </kurs>
     <kurs id="14e">
-        <leistungskurs1>Englisch</leistungskurs1>
+        <leistungskurs1>ENGLISCH</leistungskurs1>
         <leistungskurs2>NW</leistungskurs2>
         <prüfungsfach3>AFII</prüfungsfach3>
-        <prüfungsfach4>Mathematik</prüfungsfach4>
+        <prüfungsfach4>MATHEMATIK</prüfungsfach4>
         <prüfungskomponente5>DEUTSCH</prüfungskomponente5>
     </kurs>
     <kurs id="14f">
-        <leistungskurs1>Englisch</leistungskurs1>
+        <leistungskurs1>ENGLISCH</leistungskurs1>
         <leistungskurs2>NW</leistungskurs2>
         <prüfungsfach3>AFII</prüfungsfach3>
         <prüfungsfach4>DEUTSCH</prüfungsfach4>
-        <prüfungskomponente5>Beliebig</prüfungskomponente5>
+        <prüfungskomponente5>BELIEBIG</prüfungskomponente5>
     </kurs>
 
     <kurs id="15a">
-        <leistungskurs1>Englisch</leistungskurs1>
+        <leistungskurs1>ENGLISCH</leistungskurs1>
         <leistungskurs2>NW</leistungskurs2>
-        <prüfungsfach3>Mathematik</prüfungsfach3>
+        <prüfungsfach3>MATHEMATIK</prüfungsfach3>
         <prüfungsfach4>AFII</prüfungsfach4>
-        <prüfungskomponente5>Beliebig</prüfungskomponente5>
+        <prüfungskomponente5>BELIEBIG</prüfungskomponente5>
     </kurs>
     <kurs id="15b">
-        <leistungskurs1>Englisch</leistungskurs1>
+        <leistungskurs1>ENGLISCH</leistungskurs1>
         <leistungskurs2>NW</leistungskurs2>
-        <prüfungsfach3>Mathematik</prüfungsfach3>
-        <prüfungsfach4>Beliebig</prüfungsfach4>
+        <prüfungsfach3>MATHEMATIK</prüfungsfach3>
+        <prüfungsfach4>BELIEBIG</prüfungsfach4>
         <prüfungskomponente5>AFII + PHILOSOPHIE</prüfungskomponente5>
     </kurs>
     <kurs id="15c">
-        <leistungskurs1>Englisch</leistungskurs1>
+        <leistungskurs1>ENGLISCH</leistungskurs1>
         <leistungskurs2>NW</leistungskurs2>
-        <prüfungsfach3>Beliebig</prüfungsfach3>
-        <prüfungsfach4>Mathematik</prüfungsfach4>
+        <prüfungsfach3>BELIEBIG</prüfungsfach3>
+        <prüfungsfach4>MATHEMATIK</prüfungsfach4>
         <prüfungskomponente5>AFII + PHILOSOPHIE</prüfungskomponente5>
     </kurs>
     <kurs id="15d">
-        <leistungskurs1>Englisch</leistungskurs1>
+        <leistungskurs1>ENGLISCH</leistungskurs1>
         <leistungskurs2>NW</leistungskurs2>
         <prüfungsfach3>DEUTSCH</prüfungsfach3>
         <prüfungsfach4>AFII</prüfungsfach4>
-        <prüfungskomponente5>Mathematik</prüfungskomponente5>
+        <prüfungskomponente5>MATHEMATIK</prüfungskomponente5>
     </kurs>
     <kurs id="15e">
-        <leistungskurs1>Englisch</leistungskurs1>
+        <leistungskurs1>ENGLISCH</leistungskurs1>
         <leistungskurs2>NW</leistungskurs2>
         <prüfungsfach3>AFII</prüfungsfach3>
         <prüfungsfach4>DEUTSCH</prüfungsfach4>
-        <prüfungskomponente5>Mathematik</prüfungskomponente5>
+        <prüfungskomponente5>MATHEMATIK</prüfungskomponente5>
     </kurs>
     <kurs id="15f">
-        <leistungskurs1>Englisch</leistungskurs1>
+        <leistungskurs1>ENGLISCH</leistungskurs1>
         <leistungskurs2>NW</leistungskurs2>
         <prüfungsfach3>AFII</prüfungsfach3>
-        <prüfungsfach4>Mathematik</prüfungsfach4>
-        <prüfungskomponente5>Beliebig</prüfungskomponente5>
+        <prüfungsfach4>MATHEMATIK</prüfungsfach4>
+        <prüfungskomponente5>BELIEBIG</prüfungskomponente5>
     </kurs>
 
     <kurs id="21a">
-        <leistungskurs1>Mathematik</leistungskurs1>
+        <leistungskurs1>MATHEMATIK</leistungskurs1>
         <leistungskurs2>DEUTSCH</leistungskurs2>
         <prüfungsfach3>AFII</prüfungsfach3>
-        <prüfungsfach4>Beliebig</prüfungsfach4>
-        <prüfungskomponente5>Beliebig</prüfungskomponente5>
+        <prüfungsfach4>BELIEBIG</prüfungsfach4>
+        <prüfungskomponente5>BELIEBIG</prüfungskomponente5>
     </kurs>
     <kurs id="21b">
-        <leistungskurs1>Mathematik</leistungskurs1>
+        <leistungskurs1>MATHEMATIK</leistungskurs1>
         <leistungskurs2>DEUTSCH</leistungskurs2>
-        <prüfungsfach3>Beliebig</prüfungsfach3>
+        <prüfungsfach3>BELIEBIG</prüfungsfach3>
         <prüfungsfach4>AFII</prüfungsfach4>
-        <prüfungskomponente5>Beliebig</prüfungskomponente5>
+        <prüfungskomponente5>BELIEBIG</prüfungskomponente5>
     </kurs>
     <kurs id="21c">
-        <leistungskurs1>Mathematik</leistungskurs1>
+        <leistungskurs1>MATHEMATIK</leistungskurs1>
         <leistungskurs2>DEUTSCH</leistungskurs2>
-        <prüfungsfach3>Beliebig</prüfungsfach3>
-        <prüfungsfach4>Beliebig</prüfungsfach4>
+        <prüfungsfach3>BELIEBIG</prüfungsfach3>
+        <prüfungsfach4>BELIEBIG</prüfungsfach4>
         <prüfungskomponente5>AFII + PHILOSOPHIE</prüfungskomponente5>
     </kurs>
 
     <kurs id="24a">
-        <leistungskurs1>Mathematik</leistungskurs1>
+        <leistungskurs1>MATHEMATIK</leistungskurs1>
         <leistungskurs2>AFII</leistungskurs2>
         <prüfungsfach3>DEUTSCH</prüfungsfach3>
-        <prüfungsfach4>Beliebig</prüfungsfach4>
-        <prüfungskomponente5>Beliebig</prüfungskomponente5>
+        <prüfungsfach4>BELIEBIG</prüfungsfach4>
+        <prüfungskomponente5>BELIEBIG</prüfungskomponente5>
     </kurs>
     <kurs id="24b">
-        <leistungskurs1>Mathematik</leistungskurs1>
+        <leistungskurs1>MATHEMATIK</leistungskurs1>
         <leistungskurs2>AFII</leistungskurs2>
-        <prüfungsfach3>Beliebig</prüfungsfach3>
+        <prüfungsfach3>BELIEBIG</prüfungsfach3>
         <prüfungsfach4>DEUTSCH</prüfungsfach4>
-        <prüfungskomponente5>Beliebig</prüfungskomponente5>
+        <prüfungskomponente5>BELIEBIG</prüfungskomponente5>
     </kurs>
     <kurs id="24c">
-        <leistungskurs1>Mathematik</leistungskurs1>
+        <leistungskurs1>MATHEMATIK</leistungskurs1>
         <leistungskurs2>AFII</leistungskurs2>
         <prüfungsfach3>Fremdprachen</prüfungsfach3>
-        <prüfungsfach4>Beliebig</prüfungsfach4>
+        <prüfungsfach4>BELIEBIG</prüfungsfach4>
         <prüfungskomponente5>DEUTSCH</prüfungskomponente5>
     </kurs>
     <kurs id="24d">
-        <leistungskurs1>Mathematik</leistungskurs1>
+        <leistungskurs1>MATHEMATIK</leistungskurs1>
         <leistungskurs2>AFII</leistungskurs2>
-        <prüfungsfach3>Beliebig</prüfungsfach3>
+        <prüfungsfach3>BELIEBIG</prüfungsfach3>
         <prüfungsfach4>FREMDSPRACHEN</prüfungsfach4>
         <prüfungskomponente5>DEUTSCH</prüfungskomponente5>
     </kurs>
 
     <kurs id="25a">
-        <leistungskurs1>Mathematik</leistungskurs1>
+        <leistungskurs1>MATHEMATIK</leistungskurs1>
         <leistungskurs2>AFII</leistungskurs2>
         <prüfungsfach3>FREMDSPRACHEN</prüfungsfach3>
-        <prüfungsfach4>Beliebig</prüfungsfach4>
-        <prüfungskomponente5>Beliebig</prüfungskomponente5>
+        <prüfungsfach4>BELIEBIG</prüfungsfach4>
+        <prüfungskomponente5>BELIEBIG</prüfungskomponente5>
     </kurs>
     <kurs id="25b">
-        <leistungskurs1>Mathematik</leistungskurs1>
+        <leistungskurs1>MATHEMATIK</leistungskurs1>
         <leistungskurs2>AFII</leistungskurs2>
-        <prüfungsfach3>Beliebig</prüfungsfach3>
+        <prüfungsfach3>BELIEBIG</prüfungsfach3>
         <prüfungsfach4>FREMDSPRACHEN</prüfungsfach4>
-        <prüfungskomponente5>Beliebig</prüfungskomponente5>
+        <prüfungskomponente5>BELIEBIG</prüfungskomponente5>
     </kurs>
     <kurs id="25c">
-        <leistungskurs1>Mathematik</leistungskurs1>
+        <leistungskurs1>MATHEMATIK</leistungskurs1>
         <leistungskurs2>AFII</leistungskurs2>
         <prüfungsfach3>DEUTSCH</prüfungsfach3>
-        <prüfungsfach4>Beliebig</prüfungsfach4>
+        <prüfungsfach4>BELIEBIG</prüfungsfach4>
         <prüfungskomponente5>FREMDSPRACHEN</prüfungskomponente5>
     </kurs>
     <kurs id="25d">
-        <leistungskurs1>Mathematik</leistungskurs1>
+        <leistungskurs1>MATHEMATIK</leistungskurs1>
         <leistungskurs2>AFII</leistungskurs2>
-        <prüfungsfach3>Beliebig</prüfungsfach3>
+        <prüfungsfach3>BELIEBIG</prüfungsfach3>
         <prüfungsfach4>DEUTSCH</prüfungsfach4>
         <prüfungskomponente5>FREMDSPRACHEN</prüfungskomponente5>
     </kurs>
 
     <kurs id="26a">
-        <leistungskurs1>Mathematik</leistungskurs1>
+        <leistungskurs1>MATHEMATIK</leistungskurs1>
         <leistungskurs2>NW</leistungskurs2>
         <prüfungsfach3>DEUTSCH</prüfungsfach3>
         <prüfungsfach4>AFII</prüfungsfach4>
-        <prüfungskomponente5>Beliebig</prüfungskomponente5>
+        <prüfungskomponente5>BELIEBIG</prüfungskomponente5>
     </kurs>
     <kurs id="26b">
-        <leistungskurs1>Mathematik</leistungskurs1>
+        <leistungskurs1>MATHEMATIK</leistungskurs1>
         <leistungskurs2>NW</leistungskurs2>
         <prüfungsfach3>DEUTSCH</prüfungsfach3>
-        <prüfungsfach4>Beliebig</prüfungsfach4>
+        <prüfungsfach4>BELIEBIG</prüfungsfach4>
         <prüfungskomponente5>AFII + PHILOSOPHIE</prüfungskomponente5>
     </kurs>
     <kurs id="26c">
-        <leistungskurs1>Mathematik</leistungskurs1>
+        <leistungskurs1>MATHEMATIK</leistungskurs1>
         <leistungskurs2>NW</leistungskurs2>
-        <prüfungsfach3>Beliebig</prüfungsfach3>
+        <prüfungsfach3>BELIEBIG</prüfungsfach3>
         <prüfungsfach4>DEUTSCH</prüfungsfach4>
         <prüfungskomponente5>AFII + PHILOSOPHIE</prüfungskomponente5>
     </kurs>
     <kurs id="26d">
-        <leistungskurs1>Mathematik</leistungskurs1>
+        <leistungskurs1>MATHEMATIK</leistungskurs1>
         <leistungskurs2>NW</leistungskurs2>
         <prüfungsfach3>FREMDSPRACHEN</prüfungsfach3>
         <prüfungsfach4>AFII</prüfungsfach4>
         <prüfungskomponente5>DEUTSCH</prüfungskomponente5>
     </kurs>
     <kurs id="26e">
-        <leistungskurs1>Mathematik</leistungskurs1>
+        <leistungskurs1>MATHEMATIK</leistungskurs1>
         <leistungskurs2>NW</leistungskurs2>
         <prüfungsfach3>AFII</prüfungsfach3>
         <prüfungsfach4>FREMDSPRACHEN</prüfungsfach4>
         <prüfungskomponente5>DEUTSCH</prüfungskomponente5>
     </kurs>
     <kurs id="26f">
-        <leistungskurs1>Mathematik</leistungskurs1>
+        <leistungskurs1>MATHEMATIK</leistungskurs1>
         <leistungskurs2>NW</leistungskurs2>
         <prüfungsfach3>AFII</prüfungsfach3>
         <prüfungsfach4>DEUTSCH</prüfungsfach4>
-        <prüfungskomponente5>Beliebig</prüfungskomponente5>
+        <prüfungskomponente5>BELIEBIG</prüfungskomponente5>
     </kurs>
 
     <kurs id="27a">
-        <leistungskurs1>Mathematik</leistungskurs1>
+        <leistungskurs1>MATHEMATIK</leistungskurs1>
         <leistungskurs2>NW</leistungskurs2>
         <prüfungsfach3>FREMDSPRACHEN</prüfungsfach3>
         <prüfungsfach4>AFII</prüfungsfach4>
-        <prüfungskomponente5>Beliebig</prüfungskomponente5>
+        <prüfungskomponente5>BELIEBIG</prüfungskomponente5>
     </kurs>
     <kurs id="27b">
-        <leistungskurs1>Mathematik</leistungskurs1>
+        <leistungskurs1>MATHEMATIK</leistungskurs1>
         <leistungskurs2>NW</leistungskurs2>
         <prüfungsfach3>FREMDSPRACHEN</prüfungsfach3>
-        <prüfungsfach4>Beliebig</prüfungsfach4>
+        <prüfungsfach4>BELIEBIG</prüfungsfach4>
         <prüfungskomponente5>AFII + PHILOSOPHIE</prüfungskomponente5>
     </kurs>
     <kurs id="27c">
-        <leistungskurs1>Mathematik</leistungskurs1>
+        <leistungskurs1>MATHEMATIK</leistungskurs1>
         <leistungskurs2>NW</leistungskurs2>
-        <prüfungsfach3>Beliebig</prüfungsfach3>
+        <prüfungsfach3>BELIEBIG</prüfungsfach3>
         <prüfungsfach4>FREMDSPRACHEN</prüfungsfach4>
         <prüfungskomponente5>AFII + PHILOSOPHIE</prüfungskomponente5>
     </kurs>
     <kurs id="27d">
-        <leistungskurs1>Mathematik</leistungskurs1>
+        <leistungskurs1>MATHEMATIK</leistungskurs1>
         <leistungskurs2>NW</leistungskurs2>
         <prüfungsfach3>FREMDSPRACHEN + DEUTSCH</prüfungsfach3>
         <prüfungsfach4>AFII</prüfungsfach4>
         <prüfungskomponente5>FREMDSPRACHEN</prüfungskomponente5>
     </kurs>
     <kurs id="27e">
-        <leistungskurs1>Mathematik</leistungskurs1>
+        <leistungskurs1>MATHEMATIK</leistungskurs1>
         <leistungskurs2>NW</leistungskurs2>
         <prüfungsfach3>AFII</prüfungsfach3>
         <prüfungsfach4>FREMDSPRACHEN + DEUTSCH</prüfungsfach4>
         <prüfungskomponente5>FREMDSPRACHEN</prüfungskomponente5>
     </kurs>
     <kurs id="27f">
-        <leistungskurs1>Mathematik</leistungskurs1>
+        <leistungskurs1>MATHEMATIK</leistungskurs1>
         <leistungskurs2>NW</leistungskurs2>
         <prüfungsfach3>AFII</prüfungsfach3>
         <prüfungsfach4>FREMDSPRACHEN</prüfungsfach4>
-        <prüfungskomponente5>Beliebig</prüfungskomponente5>
+        <prüfungskomponente5>BELIEBIG</prüfungskomponente5>
     </kurs>
 
     <kurs id="32a">
@@ -524,26 +524,26 @@
         <leistungskurs2>DEUTSCH</leistungskurs2>
         <prüfungsfach3>FREMDSPRACHEN</prüfungsfach3>
         <prüfungsfach4>AFII</prüfungsfach4>
-        <prüfungskomponente5>Beliebig</prüfungskomponente5>
+        <prüfungskomponente5>BELIEBIG</prüfungskomponente5>
     </kurs>
     <kurs id="32b">
         <leistungskurs1>NW</leistungskurs1>
         <leistungskurs2>DEUTSCH</leistungskurs2>
         <prüfungsfach3>FREMDSPRACHEN</prüfungsfach3>
-        <prüfungsfach4>Beliebig</prüfungsfach4>
+        <prüfungsfach4>BELIEBIG</prüfungsfach4>
         <prüfungskomponente5>AFII + PHILOSOPHIE</prüfungskomponente5>
     </kurs>
     <kurs id="32c">
         <leistungskurs1>NW</leistungskurs1>
         <leistungskurs2>DEUTSCH</leistungskurs2>
-        <prüfungsfach3>Beliebig</prüfungsfach3>
+        <prüfungsfach3>BELIEBIG</prüfungsfach3>
         <prüfungsfach4>FREMDSPRACHEN</prüfungsfach4>
         <prüfungskomponente5>AFII + PHILOSOPHIE</prüfungskomponente5>
     </kurs>
     <kurs id="32d">
         <leistungskurs1>NW</leistungskurs1>
         <leistungskurs2>DEUTSCH</leistungskurs2>
-        <prüfungsfach3>FREMDSPRACHEN + Mathematik</prüfungsfach3>
+        <prüfungsfach3>FREMDSPRACHEN + MATHEMATIK</prüfungsfach3>
         <prüfungsfach4>AFII</prüfungsfach4>
         <prüfungskomponente5>FREMDSPRACHEN</prüfungskomponente5>
     </kurs>
@@ -551,7 +551,7 @@
         <leistungskurs1>NW</leistungskurs1>
         <leistungskurs2>DEUTSCH</leistungskurs2>
         <prüfungsfach3>AFII</prüfungsfach3>
-        <prüfungsfach4>FREMDSPRACHEN + Mathematik</prüfungsfach4>
+        <prüfungsfach4>FREMDSPRACHEN + MATHEMATIK</prüfungsfach4>
         <prüfungskomponente5>FREMDSPRACHEN</prüfungskomponente5>
     </kurs>
     <kurs id="32f">
@@ -559,28 +559,28 @@
         <leistungskurs2>DEUTSCH</leistungskurs2>
         <prüfungsfach3>AFII</prüfungsfach3>
         <prüfungsfach4>FREMDSPRACHEN</prüfungsfach4>
-        <prüfungskomponente5>Beliebig</prüfungskomponente5>
+        <prüfungskomponente5>BELIEBIG</prüfungskomponente5>
     </kurs>
 
     <kurs id="33a">
         <leistungskurs1>NW</leistungskurs1>
         <leistungskurs2>DEUTSCH</leistungskurs2>
-        <prüfungsfach3>Mathematik</prüfungsfach3>
+        <prüfungsfach3>MATHEMATIK</prüfungsfach3>
         <prüfungsfach4>AFII</prüfungsfach4>
-        <prüfungskomponente5>Beliebig</prüfungskomponente5>
+        <prüfungskomponente5>BELIEBIG</prüfungskomponente5>
     </kurs>
     <kurs id="33b">
         <leistungskurs1>NW</leistungskurs1>
         <leistungskurs2>DEUTSCH</leistungskurs2>
-        <prüfungsfach3>Mathematik</prüfungsfach3>
-        <prüfungsfach4>Beliebig</prüfungsfach4>
+        <prüfungsfach3>MATHEMATIK</prüfungsfach3>
+        <prüfungsfach4>BELIEBIG</prüfungsfach4>
         <prüfungskomponente5>AFII + PHILOSOPHIE</prüfungskomponente5>
     </kurs>
     <kurs id="33c">
         <leistungskurs1>NW</leistungskurs1>
         <leistungskurs2>DEUTSCH</leistungskurs2>
-        <prüfungsfach3>Beliebig</prüfungsfach3>
-        <prüfungsfach4>Mathematik</prüfungsfach4>
+        <prüfungsfach3>BELIEBIG</prüfungsfach3>
+        <prüfungsfach4>MATHEMATIK</prüfungsfach4>
         <prüfungskomponente5>AFII + PHILOSOPHIE</prüfungskomponente5>
     </kurs>
     <kurs id="33d">
@@ -588,21 +588,21 @@
         <leistungskurs2>DEUTSCH</leistungskurs2>
         <prüfungsfach3>FREMDSPRACHEN</prüfungsfach3>
         <prüfungsfach4>AFII</prüfungsfach4>
-        <prüfungskomponente5>Mathematik</prüfungskomponente5>
+        <prüfungskomponente5>MATHEMATIK</prüfungskomponente5>
     </kurs>
     <kurs id="33e">
         <leistungskurs1>NW</leistungskurs1>
         <leistungskurs2>DEUTSCH</leistungskurs2>
         <prüfungsfach3>AFII</prüfungsfach3>
         <prüfungsfach4>FREMDSPRACHEN</prüfungsfach4>
-        <prüfungskomponente5>Mathematik</prüfungskomponente5>
+        <prüfungskomponente5>MATHEMATIK</prüfungskomponente5>
     </kurs>
     <kurs id="33f">
         <leistungskurs1>NW</leistungskurs1>
         <leistungskurs2>DEUTSCH</leistungskurs2>
         <prüfungsfach3>AFII</prüfungsfach3>
-        <prüfungsfach4>Mathematik</prüfungsfach4>
-        <prüfungskomponente5>Beliebig</prüfungskomponente5>
+        <prüfungsfach4>MATHEMATIK</prüfungsfach4>
+        <prüfungskomponente5>BELIEBIG</prüfungskomponente5>
     </kurs>
 
     <kurs id="37a">
@@ -610,14 +610,14 @@
         <leistungskurs2>AFII</leistungskurs2>
         <prüfungsfach3>FREMDSPRACHEN</prüfungsfach3>
         <prüfungsfach4>DEUTSCH</prüfungsfach4>
-        <prüfungskomponente5>Beliebig</prüfungskomponente5>
+        <prüfungskomponente5>BELIEBIG</prüfungskomponente5>
     </kurs>
     <kurs id="37b">
         <leistungskurs1>NW</leistungskurs1>
         <leistungskurs2>AFII</leistungskurs2>
         <prüfungsfach3>DEUTSCH</prüfungsfach3>
         <prüfungsfach4>FREMDSPRACHEN</prüfungsfach4>
-        <prüfungskomponente5>Beliebig</prüfungskomponente5>
+        <prüfungskomponente5>BELIEBIG</prüfungskomponente5>
     </kurs>
 
     <kurs id="38a">
@@ -625,29 +625,29 @@
         <leistungskurs2>AFII</leistungskurs2>
         <prüfungsfach3>FREMDSPRACHEN</prüfungsfach3>
         <prüfungsfach4>DEUTSCH</prüfungsfach4>
-        <prüfungskomponente5>Beliebig</prüfungskomponente5>
+        <prüfungskomponente5>BELIEBIG</prüfungskomponente5>
     </kurs>
     <kurs id="38b">
         <leistungskurs1>NW</leistungskurs1>
         <leistungskurs2>AFII</leistungskurs2>
-        <prüfungsfach3>Mathematik</prüfungsfach3>
+        <prüfungsfach3>MATHEMATIK</prüfungsfach3>
         <prüfungsfach4>FREMDSPRACHEN</prüfungsfach4>
-        <prüfungskomponente5>Beliebig</prüfungskomponente5>
+        <prüfungskomponente5>BELIEBIG</prüfungskomponente5>
     </kurs>
 
     <kurs id="39a">
         <leistungskurs1>NW</leistungskurs1>
         <leistungskurs2>AFII</leistungskurs2>
-        <prüfungsfach3>Mathematik</prüfungsfach3>
+        <prüfungsfach3>MATHEMATIK</prüfungsfach3>
         <prüfungsfach4>DEUTSCH</prüfungsfach4>
-        <prüfungskomponente5>Beliebig</prüfungskomponente5>
+        <prüfungskomponente5>BELIEBIG</prüfungskomponente5>
     </kurs>
     <kurs id="39b">
         <leistungskurs1>NW</leistungskurs1>
         <leistungskurs2>AFII</leistungskurs2>
         <prüfungsfach3>DEUTSCH</prüfungsfach3>
-        <prüfungsfach4>Mathematik</prüfungsfach4>
-        <prüfungskomponente5>Beliebig</prüfungskomponente5>
+        <prüfungsfach4>MATHEMATIK</prüfungsfach4>
+        <prüfungskomponente5>BELIEBIG</prüfungskomponente5>
     </kurs>
 
     <kurs id="40a">
@@ -669,13 +669,13 @@
         <leistungskurs1>NW</leistungskurs1>
         <leistungskurs2>NW</leistungskurs2>
         <prüfungsfach3>FREMDSPRACHEN</prüfungsfach3>
-        <prüfungsfach4>Mathematik</prüfungsfach4>
+        <prüfungsfach4>MATHEMATIK</prüfungsfach4>
         <prüfungskomponente5>AFII + PHILOSOPHIE</prüfungskomponente5>
     </kurs>
     <kurs id="41b">
         <leistungskurs1>NW</leistungskurs1>
         <leistungskurs2>NW</leistungskurs2>
-        <prüfungsfach3>Mathematik</prüfungsfach3>
+        <prüfungsfach3>MATHEMATIK</prüfungsfach3>
         <prüfungsfach4>FREMDSPRACHEN</prüfungsfach4>
         <prüfungskomponente5>AFII + PHILOSOPHIE</prüfungskomponente5>
     </kurs>
@@ -683,7 +683,7 @@
     <kurs id="42a">
         <leistungskurs1>NW</leistungskurs1>
         <leistungskurs2>NW</leistungskurs2>
-        <prüfungsfach3>Mathematik</prüfungsfach3>
+        <prüfungsfach3>MATHEMATIK</prüfungsfach3>
         <prüfungsfach4>DEUTSCH</prüfungsfach4>
         <prüfungskomponente5>AFII + PHILOSOPHIE</prüfungskomponente5>
     </kurs>
@@ -691,7 +691,7 @@
         <leistungskurs1>NW</leistungskurs1>
         <leistungskurs2>NW</leistungskurs2>
         <prüfungsfach3>DEUTSCH</prüfungsfach3>
-        <prüfungsfach4>Mathematik</prüfungsfach4>
+        <prüfungsfach4>MATHEMATIK</prüfungsfach4>
         <prüfungskomponente5>AFII + PHILOSOPHIE</prüfungskomponente5>
     </kurs>
 
@@ -700,26 +700,26 @@
         <leistungskurs2>AFII</leistungskurs2>
         <prüfungsfach3>FREMDSPRACHEN</prüfungsfach3>
         <prüfungsfach4>NW</prüfungsfach4>
-        <prüfungskomponente5>Beliebig</prüfungskomponente5>
+        <prüfungskomponente5>BELIEBIG</prüfungskomponente5>
     </kurs>
     <kurs id="52b">
         <leistungskurs1>DEUTSCH</leistungskurs1>
         <leistungskurs2>AFII</leistungskurs2>
         <prüfungsfach3>FREMDSPRACHEN</prüfungsfach3>
-        <prüfungsfach4>Beliebig</prüfungsfach4>
+        <prüfungsfach4>BELIEBIG</prüfungsfach4>
         <prüfungskomponente5>NW</prüfungskomponente5>
     </kurs>
     <kurs id="52c">
         <leistungskurs1>DEUTSCH</leistungskurs1>
         <leistungskurs2>AFII</leistungskurs2>
-        <prüfungsfach3>Beliebig</prüfungsfach3>
+        <prüfungsfach3>BELIEBIG</prüfungsfach3>
         <prüfungsfach4>FREMDSPRACHEN</prüfungsfach4>
         <prüfungskomponente5>NW</prüfungskomponente5>
     </kurs>
     <kurs id="52d">
         <leistungskurs1>DEUTSCH</leistungskurs1>
         <leistungskurs2>AFII</leistungskurs2>
-        <prüfungsfach3>FREMDSPRACHEN + Mathematik</prüfungsfach3>
+        <prüfungsfach3>FREMDSPRACHEN + MATHEMATIK</prüfungsfach3>
         <prüfungsfach4>NW</prüfungsfach4>
         <prüfungskomponente5>FREMDSPRACHEN</prüfungskomponente5>
     </kurs>
@@ -727,7 +727,7 @@
         <leistungskurs1>DEUTSCH</leistungskurs1>
         <leistungskurs2>AFII</leistungskurs2>
         <prüfungsfach3>NW</prüfungsfach3>
-        <prüfungsfach4>Beliebig</prüfungsfach4>
+        <prüfungsfach4>BELIEBIG</prüfungsfach4>
         <prüfungskomponente5>FREMDSPRACHEN</prüfungskomponente5>
     </kurs>
     <kurs id="52f">
@@ -735,78 +735,78 @@
         <leistungskurs2>AFII</leistungskurs2>
         <prüfungsfach3>NW</prüfungsfach3>
         <prüfungsfach4>FREMDSPRACHEN</prüfungsfach4>
-        <prüfungskomponente5>Beliebig</prüfungskomponente5>
+        <prüfungskomponente5>BELIEBIG</prüfungskomponente5>
     </kurs>
 
     <kurs id="53a">
         <leistungskurs1>DEUTSCH</leistungskurs1>
         <leistungskurs2>AFII</leistungskurs2>
         <prüfungsfach3>FREMDSPRACHEN</prüfungsfach3>
-        <prüfungsfach4>Informatik</prüfungsfach4>
-        <prüfungskomponente5>Beliebig</prüfungskomponente5>
+        <prüfungsfach4>INFORMATIK</prüfungsfach4>
+        <prüfungskomponente5>BELIEBIG</prüfungskomponente5>
     </kurs>
     <kurs id="53b">
         <leistungskurs1>DEUTSCH</leistungskurs1>
         <leistungskurs2>AFII</leistungskurs2>
         <prüfungsfach3>FREMDSPRACHEN</prüfungsfach3>
-        <prüfungsfach4>Beliebig</prüfungsfach4>
-        <prüfungskomponente5>Informatik</prüfungskomponente5>
+        <prüfungsfach4>BELIEBIG</prüfungsfach4>
+        <prüfungskomponente5>INFORMATIK</prüfungskomponente5>
     </kurs>
     <kurs id="53c">
         <leistungskurs1>DEUTSCH</leistungskurs1>
         <leistungskurs2>AFII</leistungskurs2>
-        <prüfungsfach3>Beliebig</prüfungsfach3>
+        <prüfungsfach3>BELIEBIG</prüfungsfach3>
         <prüfungsfach4>FREMDSPRACHEN</prüfungsfach4>
-        <prüfungskomponente5>Informatik</prüfungskomponente5>
+        <prüfungskomponente5>INFORMATIK</prüfungskomponente5>
     </kurs>
     <kurs id="53d">
         <leistungskurs1>DEUTSCH</leistungskurs1>
         <leistungskurs2>AFII</leistungskurs2>
-        <prüfungsfach3>FREMDSPRACHEN + Mathematik</prüfungsfach3>
-        <prüfungsfach4>Informatik</prüfungsfach4>
+        <prüfungsfach3>FREMDSPRACHEN + MATHEMATIK</prüfungsfach3>
+        <prüfungsfach4>INFORMATIK</prüfungsfach4>
         <prüfungskomponente5>FREMDSPRACHEN</prüfungskomponente5>
     </kurs>
     <kurs id="53e">
         <leistungskurs1>DEUTSCH</leistungskurs1>
         <leistungskurs2>AFII</leistungskurs2>
-        <prüfungsfach3>Informatik</prüfungsfach3>
-        <prüfungsfach4>FREMDSPRACHEN + Mathematik</prüfungsfach4>
+        <prüfungsfach3>INFORMATIK</prüfungsfach3>
+        <prüfungsfach4>FREMDSPRACHEN + MATHEMATIK</prüfungsfach4>
         <prüfungskomponente5>FREMDSPRACHEN</prüfungskomponente5>
     </kurs>
     <kurs id="53f">
         <leistungskurs1>DEUTSCH</leistungskurs1>
         <leistungskurs2>AFII</leistungskurs2>
-        <prüfungsfach3>Informatik</prüfungsfach3>
+        <prüfungsfach3>INFORMATIK</prüfungsfach3>
         <prüfungsfach4>FREMDSPRACHEN</prüfungsfach4>
-        <prüfungskomponente5>Beliebig</prüfungskomponente5>
+        <prüfungskomponente5>BELIEBIG</prüfungskomponente5>
     </kurs>
 
     <kurs id="54a">
         <leistungskurs1>DEUTSCH</leistungskurs1>
         <leistungskurs2>AFII</leistungskurs2>
-        <prüfungsfach3>Mathematik</prüfungsfach3>
-        <prüfungsfach4>Beliebig</prüfungsfach4>
-        <prüfungskomponente5>Beliebig</prüfungskomponente5>
+        <prüfungsfach3>MATHEMATIK</prüfungsfach3>
+        <prüfungsfach4>BELIEBIG</prüfungsfach4>
+        <prüfungskomponente5>BELIEBIG</prüfungskomponente5>
     </kurs>
     <kurs id="54b">
         <leistungskurs1>DEUTSCH</leistungskurs1>
         <leistungskurs2>AFII</leistungskurs2>
-        <prüfungsfach3>Beliebig</prüfungsfach3>
-        <prüfungsfach4>Mathematik</prüfungsfach4>
-        <prüfungskomponente5>Beliebig</prüfungskomponente5>
+        <prüfungsfach3>BELIEBIG</prüfungsfach3>
+        <prüfungsfach4>MATHEMATIK</prüfungsfach4>
+        <prüfungskomponente5>BELIEBIG</prüfungskomponente5>
     </kurs>
     <kurs id="54c">
         <leistungskurs1>DEUTSCH</leistungskurs1>
         <leistungskurs2>AFII</leistungskurs2>
-        <prüfungsfach3>Beliebig</prüfungsfach3>
+        <prüfungsfach3>BELIEBIG</prüfungsfach3>
         <prüfungsfach4>FREMDSPRACHEN</prüfungsfach4>
-        <prüfungskomponente5>Mathematik</prüfungskomponente5>
+        <prüfungskomponente5>MATHEMATIK</prüfungskomponente5>
     </kurs>
     <kurs id="54d">
         <leistungskurs1>DEUTSCH</leistungskurs1>
         <leistungskurs2>AFII</leistungskurs2>
         <prüfungsfach3>FREMDSPRACHEN</prüfungsfach3>
-        <prüfungsfach4>Beliebig</prüfungsfach4>
-        <prüfungskomponente5>Mathematik</prüfungskomponente5>
+        <prüfungsfach4>BELIEBIG</prüfungsfach4>
+        <prüfungskomponente5>MATHEMATIK</prüfungskomponente5>
     </kurs>
 </kurse>
