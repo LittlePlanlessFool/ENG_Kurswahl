@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <kurse xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
- xsi:noNamespaceSchemaLocation="kurse.xsd" size="112">
+    xsi:noNamespaceSchemaLocation="kurse.xsd" size="112">
     <kurs id="1a">
         <leistungskurs1>ENGLISCH</leistungskurs1>
         <leistungskurs2>DEUTSCH</leistungskurs2>

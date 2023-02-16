@@ -1,107 +1,88 @@
-"""very bad, but iiwdfi
-"""
+"kurswahl.py"
+
 import os
-import sys
 from xml.dom import minidom
 
 
-class Kurswaehler:
-    """TODO: fix repitition of if statements"""
+def matches(element: minidom.Element, choices: list[str]) -> bool:
+    """helper function, checks if -element-'s subelements contain the same
+    respective string as -choice-'s elements"""
+    names = (
+        "leistungskurs1",
+        "leistungskurs2",
+        "prüfungsfach3",
+        "prüfungsfach4",
+        "prüfungskomponente5",
+    )
+    clap = []
+
+    for i, choice in enumerate(choices):
+        clap.append(element.getElementsByTagName(names[i])[0].childNodes[0].nodeValue == choice)
+    return all(clap)
+
+
+def printem(element: minidom.Element):
+    """helper function, prints the values of -element-'s subelements"""
     print(
-    """AFII entspricht Geografie, Geschichte, Politikwissenschaften
-    NW entspricht Physik, Chemie, Biologie
-    Fremdsprachen entspricht Englisch, Französisch, Latein, Spanisch
-    """)
+        f"""
+        matched:
+            {element.getAttribute('id')}
+            ---
+            {element.getElementsByTagName('leistungskurs1')[0].childNodes[0].nodeValue}
+            {element.getElementsByTagName('leistungskurs2')[0].childNodes[0].nodeValue}
+            {element.getElementsByTagName('prüfungsfach3')[0].childNodes[0].nodeValue}
+            {element.getElementsByTagName('prüfungsfach4')[0].childNodes[0].nodeValue}
+            {element.getElementsByTagName('prüfungskomponente5')[0].childNodes[0].nodeValue}
+        --------"""
+    )
 
-    def __init__(self):
-        self.nextcourse = {"Englisch", "Mathematik", "NW", "Deutsch"}
 
-        self.read_lk1 = lambda node: (node
-                                      .getElementsByTagName('leistungskurs1')[0]
-                                      .childNodes[0]
-                                      .nodeValue
-                                     )
-        self.read_lk2 = lambda node: (node
-                                      .getElementsByTagName('leistungskurs2')[0]
-                                      .childNodes[0]
-                                      .nodeValue
-                                     )
-        self.read_pf3 = lambda node: (node
-                                      .getElementsByTagName('prüfungsfach3')[0]
-                                      .childNodes[0]
-                                      .nodeValue
-                                     )
-        self.read_pf4 = lambda node: (node
-                                      .getElementsByTagName('prüfungsfach4')[0]
-                                      .childNodes[0]
-                                      .nodeValue
-                                     )
-        self._query()
+def query():
+    "side effecting, blobby"
 
-    def _clear(self):
-        os.system('cls||clear')
-        if self.nextcourse:
-            self.nextcourse.clear()
+    os.system("cls || clear")
+    found, courses = [], []
+
+    dommy = minidom.parse(
+        os.path.join(
+            os.path.dirname(os.path.abspath(__file__)),
+            "kurse.xml",
+        )
+    ).getElementsByTagName("kurs")
+
+    print(
+        """Kurs 1: Englisch, ...
+Kurs 2: Mathematik, ...
+Kurs 3: NW, ...
+Kurs 4: Deutsch, ..."""
+    )
+
+    for i in range(4):
+        courses.append(
+            input(
+                f"""Wählen Sie ein Fach an der {i + 1}ten Position
+aus einem der obenstehenden Kurse.\n"""
+            ).upper()
+        )
+        os.system("cls || clear")
+
+        if not found:
+            found = [elli for elli in dommy if matches(elli, courses)]
         else:
-            print("Sie hatten einen Schreibfehler. Starten Sie das Programm neu.")
-            input()
-            sys.exit()
+            temp = [elli for elli in found if matches(elli, courses)]
+            found.clear()
+            found = [ele for ele in temp]
+            temp.clear()
 
-    def _printem(self, node):
-        print(f"""
-            ----- Passender Kurs -----
-            {node.getAttribute('id')}
-            {self.read_lk1(node)}
-            {self.read_lk2(node)}
-            {self.read_pf3(node)}
-            {self.read_pf4(node)}
-            {node.getElementsByTagName('prüfungskomponente5')[0].childNodes[0].nodeValue}
-            """)
-
-    def _query(self):
-
-        os.system('cls||clear')
-
-        # load document into RAM
-        document = (minidom
-                    .parse(
-                        os.path.join(os.path.dirname(os.path.abspath(__file__)), 'kurse.xml')
-                        )
-                    )
-        self.elements = document.getElementsByTagName('kurs')
-
-        self.lk1 = input(f"Wählen Sie den ersten Leistungskurs: {self.nextcourse}\n").upper()
-        self._clear()
-        for node in self.elements:
-            if self.read_lk1(node) == self.lk1:
-                self.nextcourse.add(self.read_lk2(node))
+        for entry in found:
+            printem(entry)
 
 
-        self.lk2 = input(f"Wählen Sie den zweiten Leistungskurs aus einem der folgenden Kurse: {self.nextcourse}\n").upper()
-        self._clear()
-        for node in self.elements:
-            if (self.read_lk1(node) == self.lk1 and
-                    self.read_lk2(node) == self.lk2):
-                self.nextcourse.add(self.read_pf3(node))
+def main():
+    "entry point"
+    query()
+    input()
 
-        self.pf3 = input(f"Wählen Sie das dritte Prüfungsfach aus einem der folgenden Kurse: {self.nextcourse}\n").upper()
-        self._clear()
-        for node in self.elements:
-            if (self.read_lk1(node) == self.lk1 and
-                    self.read_lk2(node) == self.lk2 and
-                    self.read_pf3(node) == self.pf3):
-                self.nextcourse.add(self.read_pf4(node))
-
-        self.pf4 = input(f"Wählen Sie das vierte Prüfungsfach aus einem der folgenden Kurse: {self.nextcourse}\n").upper()
-        self._clear()
-        for node in self.elements:
-            if (self.read_lk1(node) == self.lk1 and
-                    self.read_lk2(node) == self.lk2 and
-                    self.read_pf3(node) == self.pf3 and
-                    self.read_pf4(node) == self.pf4):
-                self._printem(node)
-        # wait for enter to prevent closing on windows
-        input()
 
 if __name__ == "__main__":
-    k = Kurswaehler()
+    main()
